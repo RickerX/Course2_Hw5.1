@@ -88,8 +88,8 @@ public class Main {
         map.put(6, "значение 6");
         map.put(8, "значение 8");
         map.put(7, "значение 7");
-        for (Map.Entry<Integer, String> m : map.entrySet()) {
-            System.out.println(m);
+        for (Map.Entry<Integer, String> maps : map.entrySet()) {
+            System.out.println(maps);
         }
     }
 }
